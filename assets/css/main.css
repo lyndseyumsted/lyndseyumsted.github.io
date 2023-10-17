@@ -2790,6 +2790,8 @@ input, select, textarea {
 				background-color: rgba(144, 144, 144, 0.15);
 			}
 
+			
+
 /* Header */
 
 	#header {
@@ -3003,6 +3005,7 @@ input, select, textarea {
 			.main .goto-next {
 				display: none;
 			}
+			
 
 		/* Header */
 
