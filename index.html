@@ -332,12 +332,12 @@
 										2020 to the present differ from the observations seen with the Covid-19 Pandemic? Are the
 										unemployment rates in the past three to four years much higher than what a predictive model would
 										forecast?</p>
-									<p>Bhe purpose of this time series project is to forecast the United States’ unemployment rate into the
-										years 2020 through 2023 using data from 2010 through 2018 with 2019 as validation. The main
-										questions addressed in this analysis are: how do the predicted unemployment levels from January of
-										2020 to the present differ from the observations seen with the Covid-19 Pandemic? Are the
-										unemployment rates in the past three to four years much higher than what a predictive model would
-										forecast?</p>
+									<p>By using a Box-Cox transformation to stabilize the variance and then differencing to detrend and
+										deseasonalilze the data, I was able to examine the Autocorrelation Function coefficients to identify
+										preliminary Seasonal Auto Regressive Integrated Moving Average (SARIMA) models. By comparing the
+										Akaike Information Criterion of the final stationary and invertible candidate models, a SARIMA(3,1,1)
+										(0,1,1) s=12 model was identified as the best model. Residual analysis and diagnostic checking was
+										performed on the fitted model to determine its appropriateness to forecast future values.</p>
 									<p>Using the fitted model, I was able to validate the model’s ability to forecast into the year 2019. I then
 										observed and compared the model’s predicted values with the actual time series of the United State’s
 										unemployment rate through October of 2023. I found that not only do current unemployment rates lie
